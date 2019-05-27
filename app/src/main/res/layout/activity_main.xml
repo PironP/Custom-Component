@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        tools:context=".module.MainActivity">
+
+    <com.pierrepiron.customviewproject.module.customview.CustomView
+            android:id="@+id/custom_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            custom:textColor="#dd102e"
+            custom:drawable="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.u5oY7CxEXLsD5KSsU28XVwHaHa%26pid%3DApi&amp;f=1"
+    />
+
+    <com.pierrepiron.customviewproject.module.customview.CustomView
+            android:id="@+id/custom_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:textColor="#a0db8e"
+            custom:drawable="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/220px-Kotlin-logo.svg.png"
+    />
+
+    <com.pierrepiron.customviewproject.module.customview.CustomView
+            android:id="@+id/custom_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:drawable="https://i.stack.imgur.com/TODEi.png"
+    />
+
+</LinearLayout>
